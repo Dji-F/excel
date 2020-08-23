@@ -1,6 +1,7 @@
 Webpack (imports / exports)
     SCSS
     Babel
+    ESLint
     2 Modes
         -Dev
             Dev server, Source Map, No minified JS & CSS, ESLint
