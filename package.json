@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Excel Project Application",
   "main": "webpack.config.js",
-  "browserslist": "> 0.25%, not dead",
+  "browserslist": "> 0.25%",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open --liveReload false",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "repository": {
